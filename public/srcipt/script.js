@@ -411,3 +411,8 @@ if (token) {
     localStorage.removeItem("name");
     document.getElementById("userLogined").innerHTML = "User";
 }
+
+
+function aboutMe(){
+    window.location = "http://localhost:3000/todo/aboutme.html"
+}

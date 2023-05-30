@@ -266,10 +266,13 @@ body {
   font-size: 23px;
   font-weight: bold;
 }
-#log-out{
+
+#log-out {
   display: none;
 }
-/*login page *//*login page *//*login page *//*login page *//*login page *//*login page */
+
+/*login page */
+
 
 form {
   border: 3px solid #f1f1f1;
@@ -360,10 +363,12 @@ button:hover {
   width: 34% !important;
   border-radius: 10px;
 }
-.submit-button{
-font-size: 18px !important;
-background-color: #3fa13f !important;
+
+.submit-button {
+  font-size: 18px !important;
+  background-color: #3fa13f !important;
 }
+
 .close {
 
   position: absolute;
@@ -408,11 +413,13 @@ background-color: #3fa13f !important;
 }
 
 
-/* sign page *//* sign page *//* sign page *//* sign page *//* sign page */
+/* sign page */
+
 
 
 /* Full-width input fields */
-input[type=text], input[type=password] {
+input[type=text],
+input[type=password] {
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -423,7 +430,8 @@ input[type=text], input[type=password] {
   top : -42px; */
 }
 
-input[type=text]:focus, input[type=password]:focus {
+input[type=text]:focus,
+input[type=password]:focus {
   background-color: #ddd;
   outline: none;
 }
@@ -446,7 +454,7 @@ hr {
 }
 
 button:hover {
-  opacity:1;
+  opacity: 1;
 }
 
 /* Extra styles for the cancel button */
@@ -457,7 +465,8 @@ button:hover {
 }
 
 /* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
+.cancelbtn,
+.signupbtn {
   float: left;
   width: 50%;
 }
@@ -476,22 +485,27 @@ button:hover {
 
 /* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
+
+  .cancelbtn,
+  .signupbtn {
     width: 100%;
   }
 }
+
 .container-modal-signup {
   padding: 16px;
   display: block;
 }
+
 .modal-content-signup {
   background-color: #fefefe;
   margin: 5px auto;
   max-width: 500px;
-  
+
   border: 1px solid #888;
   width: 80%;
 }
+
 #repeatUser {
   display: none;
   text-align: center;
@@ -503,7 +517,7 @@ button:hover {
   border-radius: 30px;
 }
 
-#wait{
+#wait {
   display: none;
   text-align: center;
   background-color: aquamarine;
@@ -515,7 +529,7 @@ button:hover {
   color: darkred;
 }
 
-#notFoundUser{
+#notFoundUser {
   display: none;
   text-align: center;
   width: 100%;
@@ -529,7 +543,7 @@ button:hover {
 
 
 
-#logOut{
+#logOut {
   width: 324px;
   background-color: #71d1d2;
   height: 318px;
@@ -544,27 +558,38 @@ button:hover {
   font-family: cursive;
   margin-top: 200px;
 }
-#backgroundLogOut{
+
+#backgroundLogOut {
   background-color: #0009;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    display: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
 }
 
 
-/* new func */ 
+/* new func */
 
-.taskBody { 
+.taskBody {
   width: 500px;
   height: 20px;
   background-color: #3f554e;
   margin-top: 5px;
 
+}
+
+.aboutMe {
+  border: none;
+  position: absolute;
+  top: 2%;
+  left: 1%;
+  padding: 5px 31px;
+  background-color: #00ffe26b;
+  box-shadow: 0 0 2px cornflowerblue;
 }
